@@ -1,0 +1,173 @@
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+img{
+
+
+    height: 168px;
+    margin-top: 56px;
+    margin-right: 56px;
+}
+
+.wrapper{
+
+    display: flex;
+    
+    align-items: flex-start;
+}
+
+
+.primary{
+
+    flex-direction: column;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+@keyframes changewidth {
+    from {
+      transform: scaleX(1);
+    }
+  
+    to {
+      transform: scaleX(3);
+    }
+
+}
+
+
+@keyframes changewidth-inverse {
+    from {
+      transform: scaleX(3);
+    }
+  
+    to {
+      transform: scaleX(1);
+    }
+
+}
+
+
+@keyframes changewidth-negative {
+    from {
+      transform: scaleX(1);
+    }
+  
+    to {
+      transform: scaleX(0.5);
+    }
+
+}
+
+
+
+@keyframes changeheight {
+    from {
+      transform: scaleY(1);
+    }
+  
+    to {
+      transform: scaleY(1.5);
+    }
+
+}
+
+
+@keyframes changeheight-negative {
+    from {
+      transform: scaleY(1);
+    }
+  
+    to {
+      transform: scaleY(0.5);
+    }
+
+}
+
+
+
+.the{
+
+
+    transform-origin: left;
+    animation-duration: 1s;
+    animation-name: changewidth-inverse;
+    animation-iteration-count:infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function:cubic-bezier(0.85, 0.24, 0.44, 0.99);
+
+} 
+
+
+.only{
+
+
+    transform-origin: top;
+    animation-duration: 1s;
+    animation-name: changeheight;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function:cubic-bezier(0.85, 0.24, 0.44, 0.99);    
+
+
+}
+
+
+
+.constant{
+
+
+    transform-origin: bottom;
+    animation-duration: 1s;
+    animation-name: changeheight-negative;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function:cubic-bezier(0.85, 0.24, 0.44, 0.99);
+
+
+
+}
+
+
+
+
+.is{
+
+
+    transform-origin: left;
+    animation-duration: 1s;
+    animation-name: changewidth;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function:cubic-bezier(0.85, 0.24, 0.44, 0.99);
+
+
+}
+
+
+.change{
+
+
+    transform-origin: right;
+    animation-duration: 1s;
+    animation-name: changewidth-negative;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function:cubic-bezier(0.85, 0.24, 0.44, 0.99);
+
+}
+
+
+
+
