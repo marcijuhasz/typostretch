@@ -186,3 +186,57 @@ img{
 
 
 
+@media screen and (max-width: 1600px) {
+
+
+
+img{
+
+  height: 140px;
+  margin-top: 40px;
+
+}
+
+}
+
+
+@media screen and (max-width: 1230px) {
+
+
+
+  img{
+  
+    height: 120px;
+    margin-top: 40px;
+    
+  
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 750px) {
+
+
+  img{
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .constant{
+
+    height: 38px;
+  }
+
+  .primary{
+
+    position: relative;
+  }
+
+
+
+
+}
